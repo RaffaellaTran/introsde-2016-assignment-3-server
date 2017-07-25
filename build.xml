@@ -8,7 +8,7 @@
     Notes: 
     
     * This build file includes targets to download and install in your local project the Apache IVY jar
-    * IVY is used to manage dependencies on projects (e.g., jaxb libraries, jackson libraries for json, etc.) 
+    * IVY is used to manage dependencies on projects (e.g., jaxb libraries, jackson libraries for json, etc.)  
     * 
        TO USE IVY IN YOUR PROJECTS IN ORDER TO GET MANAGE DEPENDENCIES, MAKE SURE THE FOLLOWING LINES ARE
        IN YOUR BUILD.XML UNTILL 'IVY-END-LINE' 
