@@ -15,7 +15,7 @@
        # The target "download-ivy" and "install-ivy" will download the ivy jar and place it in the "ivy" folder
        # 
 -->
-<project name="sdelab09" default="install" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="introsde-assignment-03" default="install" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
 	<!-- PART 1: Ivy properties, download, installation and configuration -->
 	<property name="ivy.install.version" value="2.4.0-rc1" />
 	<property name="ivy.jar.dir" value="${basedir}/ivy" />
