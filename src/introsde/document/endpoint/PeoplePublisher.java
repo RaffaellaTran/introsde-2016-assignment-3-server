@@ -10,7 +10,7 @@ public class PeoplePublisher {
 	public static String BASE_URL = "/ws/people";
 	
 	public static String getEndpointURL() {
-		return SERVER_URL+":"+BASE_URL;
+		return SERVER_URL+BASE_URL;
 	}
  
 	public static void main(String[] args) {
