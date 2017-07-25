@@ -1,16 +1,19 @@
 package introsde.document.endpoint;
 
-import introsde.document.ws.PeopleImpl;
-
 import javax.xml.ws.Endpoint;
 
+import introsde.document.ws.PeopleImpl;
+
+
+
+
 public class PeoplePublisher {
-	public static String SERVER_URL = "http://ass3-server.herokuapp.com";
-	//public static String PORT = "6902";
+	public static String SERVER_URL = "http://localhost";
+	public static String PORT = "6902";
 	public static String BASE_URL = "/ws/people";
 	
 	public static String getEndpointURL() {
-		return SERVER_URL+BASE_URL;
+		return SERVER_URL+":"+PORT+BASE_URL;
 	}
  
 	public static void main(String[] args) {

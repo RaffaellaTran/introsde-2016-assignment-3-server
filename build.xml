@@ -20,6 +20,7 @@
 	<property name="ivy.install.version" value="2.4.0-rc1" />
 	<property name="ivy.jar.dir" value="${basedir}/ivy" />
 	<property name="ivy.jar.file" value="${ivy.jar.dir}/ivy.jar" />
+	
 	<!-- this targe will donwload ivy.jar if its inot in the "ivy" folder yet -->
 	<target name="download-ivy" unless="skip.download">
 		<mkdir dir="${ivy.jar.dir}" />
@@ -59,6 +60,7 @@
 	<target name="resolve" depends="install-ivy" description="--> retrieve dependencies with ivy">
 		<ivy:retrieve pattern="${lib.dir}/[type]s-[artifact]-[revision].[ext]" />
 	</target>
+	
 	<!-- paths where ivy libraries will be downloaded, use them as classpathref in your compilation and running tasks  -->
 	<path id="lib.path.id">
 		<fileset dir="${lib.dir}" />
