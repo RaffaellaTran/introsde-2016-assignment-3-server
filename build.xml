@@ -149,7 +149,7 @@
 		<record name="client.log" action="start" append="no" />
 		<echo message="ant 'start-client' target has been called" />
 		<java classname="introsde.document.client.PeopleClient" classpath="${build.dir}" fork="true">
-			<arg value="https://agile-shelf-1769.herokuapp.com/soap/people?wsdl" />
+			<arg value="https://ass3-server.herokuapp.com/soap/people?wsdl" />
 			<classpath>
 				<path location="build" />
 				<fileset dir="${lib.dir}">
