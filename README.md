@@ -16,9 +16,9 @@
 
 <h3>Setup</h3>
 
-The server is deployed on Heroku and it is possible to clone it with:
+The server is possible to clone it with:
 
-https://github.com/raffu12/introsde-2016-assignment-3-server.git
+https://github.com/raffu12/introsde-2016-assignment-3-server.git. 
 
 <h3>My Client </h3>
 
