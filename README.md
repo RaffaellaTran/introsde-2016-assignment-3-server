@@ -1,4 +1,6 @@
-<h1> Server Assignment 3 | University of Trento </h1>
+<h1>Introduction to Service Design and Engineering (fall 2016) - Server Assignment 3</h1>
+
+<h2>RAFFAELLA TRAN |University of Trento </h2>
 
 <h2>SOAP Web Services</h2>
 
